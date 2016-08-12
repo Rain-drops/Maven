@@ -10,8 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 #####&lt;parent>
 <!- 被继承的父项目的构件标识符 --> 
 
-&lt;artifactId >
-</artifactId> 
+&lt;artifactId >&lt;/artifactId> 
 <!- 被继承的父项目的全球唯一标识符 --> 
 
 <groupId /> 
