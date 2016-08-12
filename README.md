@@ -124,8 +124,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 ######<!-- 扩展配置项 --> 
 
 #####&lt;configuration /> 
-&lt;/notifier> &lt;/notifiers> 
-&lt;/ciManagement> #####
+&lt;/notifier> &lt;/notifiers>
+&lt;/ciManagement>
+#####
 
 ######<!-- 项目创建年份，4位数字。当产生版权信息时需要使用这个值。 --> 
 
