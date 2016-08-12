@@ -7,7 +7,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 <-- 父项目的坐标。如果项目中没有规定某个元素的值，那么父项目中的对应值即为项目的默认值。 坐标包括group ID，artifact ID和 version。 
 -->
 
-[<parent> ]
+<parent
+
+>
 
 <!- 被继承的父项目的构件标识符 --> 
 
