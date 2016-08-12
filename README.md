@@ -1,8 +1,6 @@
 # Maven
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
-
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd "> 
 
 <!- 父项目的坐标。如果项目中没有规定某个元素的值，那么父项目中的对应值即为项目的默认值。 坐标包括group ID，artifact ID和 version。 --> 
@@ -11,8 +9,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 
 <!- 被继承的父项目的构件标识符 --> 
 
-<artifactId ></artifactId> 
-
+<artifactId >
+</artifactId> 
 <!- 被继承的父项目的全球唯一标识符 --> 
 
 <groupId /> 
