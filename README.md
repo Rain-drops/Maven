@@ -1,8 +1,6 @@
 ﻿# Maven
 #####&lt;project xmlns="http://maven.apache.org/POM/4.0.0" 
-
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd "> 
 
 ######<!-- 父项目的坐标。如果项目中没有规定某个元素的值，那么父项目中的对应值即为项目的默认值。 坐标包括group ID，artifact ID和 version。 --> 
@@ -23,9 +21,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 
 ######<!-- 父项目的pom.xml文件的相对路径。相对路径允许你选择一个不同的路径。默认值是../pom.xml。Maven首先在构建当前项目的地方寻找父项目的pom，其次在文件系统的这个位置（relativePath位置），然后在本地仓库，最后在远程仓库寻找父项目的pom。 --> 
 
-#####&lt;relativePath /> 
-
-&lt;/parent> 
+#####&lt;relativePath /> &lt;/parent> 
 
 ######<!-- 声明项目描述符遵循哪一个POM模型版本。模型本身的版本很少改变，虽然如此，但它仍然是必不可少的，这是为了当Maven引入了新的特性或者其他模型变更的时候，确保稳定性。 --> 
 
@@ -65,9 +61,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 
 ######<!-- 构建该项目或使用该插件所需要的Maven的最低版本 --> 
 
-#####&lt;maven /> 
-
-&lt;/prerequisites> 
+#####&lt;maven /> &lt;/prerequisites> 
 
 ######<!-- 项目的问题管理系统(Bugzilla, Jira, Scarab,或任何你喜欢的问题管理系统)的名称和URL，本例为 jira --> 
 
@@ -130,12 +124,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 ######<!-- 扩展配置项 --> 
 
 #####&lt;configuration /> 
-
-&lt;/notifier> 
-
-&lt;/notifiers> 
-
-&lt;/ciManagement> 
+&lt;/notifier> &lt;/notifiers> 
+&lt;/ciManagement> #####
 
 ######<!-- 项目创建年份，4位数字。当产生版权信息时需要使用这个值。 --> 
 
@@ -168,69 +158,63 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 ######<!-- 你可以浏览邮件信息的URL --> 
 
 #####&lt;archive> http:/hi.baidu.com/banseon/demo/dev/ &lt;/archive> 
-
 &lt;/mailingList> 
-
-&lt;/mailingLists> 
-
+&lt;/mailingLists> #####
+---
 ######<!-- 项目开发者列表 --> 
-
-#####&lt;developers> 
+#####
+&lt;developers> 
 
 ######<!-- 某个项目开发者的信息 --> 
 
-#####&lt;developer> 
+&lt;developer> 
 
 ######<!-- SCM里项目开发者的唯一标识符 --> 
 
-#####&lt;id> HELLO WORLD &lt;/id> 
+&lt;id> HELLO WORLD &lt;/id> 
 
 ######<!-- 项目开发者的全名 --> 
 
-#####&lt;name> banseon &lt;/name> 
+&lt;name> banseon &lt;/name> 
 
 ######<!-- 项目开发者的email --> 
 
-#####&lt;email> banseon@126.com &lt;/email> 
+&lt;email> banseon@126.com &lt;/email> 
 
 ######<!-- 项目开发者的主页的URL --> 
 
-#####&lt;url /> 
+&lt;url /> 
 
 ######<!-- 项目开发者在项目中扮演的角色，角色元素描述了各种角色 --> 
 
-#####&lt;roles> 
-
-#####&lt;role> Project Manager &lt;/role> 
-
-#####&lt;role> Architect &lt;/role> 
-
-&lt;/roles> 
+&lt;roles> 
+&lt;role> Project Manager &lt;/role> 
+&lt;role> Architect &lt;/role> 
+&lt;/roles>
 
 ######<!-- 项目开发者所属组织 --> 
 
-#####&lt;organization> demo &lt;/organization> 
+&lt;organization> demo &lt;/organization> 
 
 ######<!-- 项目开发者所属组织的URL --> 
 
-#####&lt;organizationUrl> http://hi.baidu.com/banseon &lt;/organizationUrl> 
+&lt;organizationUrl> http://hi.baidu.com/banseon &lt;/organizationUrl> 
 
 ######<!-- 项目开发者属性，如即时消息如何处理等 --> 
 
-#####&lt;properties> 
-
-#####&lt;dept> No &lt;/dept> 
-
-&lt;/properties> 
+&lt;properties> 
+&lt;dept> No &lt;/dept> 
+&lt;/properties> #####
 
 ######<!-- 项目开发者所在时区， -11到12范围内的整数。 --> 
 
-#####&lt;timezone> -5 &lt;/timezone> 
+&lt;timezone> -5 &lt;/timezone> 
 
 &lt;/developer> 
 
 &lt;/developers> 
-
+#####
+---
 ######<!-- 项目的其他贡献者列表 --> 
 
 #####&lt;contributors> 
